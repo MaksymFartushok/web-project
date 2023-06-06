@@ -10,29 +10,43 @@
 </head>
 
 <body>
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="header__menu">
             <a href="#">Home</a>
             <a href="#">Product</a>
             <a href="#">Pricing</a>
             <a href="#">About</a>
-            <a href="#">Contact</a> <img src="src/logo.png" alt="figma logo">
-            <img src="src/twitter_logo.png" alt="twitter logo">
-            <img src="src/fb_logo.png" alt="facebook logo">
-            <img src="src/in_logo.png" alt="instagram logo">
+            <a href="#">Contact</a>
         </nav>
+        <img src="img/logo.png" alt="figma logo">
+        <div class="header__social-logo">
+            <img src="img/twitter_logo.png" alt="twitter logo">
+            <img src="img/fb_logo.png" alt="facebook logo">
+            <img src="img/in_logo.png" alt="instagram logo">
+        </div>
     </header>
     <main>
         <h1>The best products starts with figma</h1>
-        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
-        <button href="#">Try for free</button>
-        <h2>Features</h2>
-        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <a href="#">Try for free</a>
+        <section class="Features">
+            <h2>Features</h2>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <div class="Features__descriptoin">
+                <div class="Features__descriptoin__1">
+                    <img src="img/figures.png" alt="figures">
+                    <h3>OpenType features</h3>
+                    <h3>Veriable fonts</h3>
+                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
 
     </footer>
+    <script src=" https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 
 </html>
